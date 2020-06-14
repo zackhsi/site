@@ -7,7 +7,7 @@ type Props = {
   title?: string;
 };
 
-const Layout = ({ children, title = "This is the default title" }: Props) => (
+const Layout = ({ children, title = "Zack Hsi" }: Props) => (
   <div>
     <Head>
       <title>{title}</title>
@@ -20,10 +20,6 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
           <a>Home</a>
         </Link>{" "}
         |{" "}
-        <Link href="/about">
-          <a>About</a>
-        </Link>{" "}
-        |{" "}
         <Link href="/users">
           <a>Users List</a>
         </Link>{" "}
@@ -31,10 +27,6 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
       </nav>
     </header>
     {children}
-    <footer>
-      <hr />
-      <span>I'm here to stay (Footer)</span>
-    </footer>
   </div>
 );
 
