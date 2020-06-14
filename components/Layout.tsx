@@ -20,6 +20,14 @@ const Layout = ({ children, title = "Zack Hsi" }: Props) => (
           <a>Home</a>
         </Link>{" "}
         |{" "}
+        <Link href="/bookshelf">
+          <a>Bookshelf</a>
+        </Link>{" "}
+        |{" "}
+        <Link href="/beer-field-guide">
+          <a>Beer Field Guide</a>
+        </Link>{" "}
+        |{" "}
         <Link href="/users">
           <a>Users List</a>
         </Link>{" "}
