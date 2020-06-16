@@ -26,12 +26,7 @@ const Layout = ({ children, title = "Zack Hsi" }: Props) => (
         |{" "}
         <Link href="/beer-field-guide">
           <a>Beer Field Guide</a>
-        </Link>{" "}
-        |{" "}
-        <Link href="/users">
-          <a>Users List</a>
-        </Link>{" "}
-        | <a href="/api/users">Users API</a>
+        </Link>
       </nav>
     </header>
     {children}
