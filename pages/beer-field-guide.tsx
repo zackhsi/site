@@ -21,8 +21,8 @@ const BeerFieldGuide = () => (
       <a href="https://www.researchgate.net/publication/228471869">
         volatile hop aromas
       </a>
-      . I believe beer's degradation over time creates space around the world
-      for local nanobreweries to outcompete global brands.
+      . Beer's degradation over time creates space around the world for local
+      nanobreweries to outcompete global brands.
     </p>
     <p>Here's what I've discovered through my travels.</p>
     <h2>Singapore</h2>
@@ -48,9 +48,14 @@ const BeerFieldGuide = () => (
     </h3>
     <p>
       Heart of Darkness was my first love when I arrived in Singapore. They
-      boast a wide variety of brews, owing to their fast build-test-deploy
-      cycle. Heart of Darkness brews in Saigon, centrally located for APAC
-      distribution.
+      boast a wide variety of brews, from Brut IPAs to Pomelo IPAs (to, yes,
+      non-IPAs). Founder John Pemberton and Head Brewer Duane Morton lead the
+      team, encouraging them to create one or two new brews each week.
+    </p>
+    <p>
+      Heart of Darkness brews in Saigon, centrally located for APAC
+      distribution. If you pop into their Singapore taproom, be sure to order
+      truffle fries.
     </p>
     <p>
       Recommendation:{" "}
@@ -85,7 +90,7 @@ const BeerFieldGuide = () => (
       <a href="https://www.ratebeer.com/ratebeerbest/2019/best-brewers-top-100">
         world class
       </a>{" "}
-      beer just 10 minutes south of LAX. Biergarten > traffic jam.
+      beer just 10 minutes south of LAX. Biergarten {">"} traffic jam.
     </p>
     <p>
       Recommendation:{" "}
