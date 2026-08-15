@@ -21,8 +21,6 @@ a {
   text-underline-offset: 0.18em;
 }
 
-a:hover { text-decoration-thickness: 3px; }
-
 a:focus-visible {
   outline: 3px solid currentColor;
   outline-offset: 4px;
@@ -60,10 +58,6 @@ footer {
 
 .site-header nav a {
   text-decoration: none;
-}
-
-.site-header nav a:hover {
-  opacity: 0.6;
 }
 
 .site-header [aria-current="page"] {
@@ -150,10 +144,16 @@ li a span:last-child {
   color: #595851;
 }
 
-li a:hover span:first-child {
-  text-decoration: underline;
-  text-decoration-thickness: 3px;
-  text-underline-offset: 0.14em;
+@media (hover: hover) and (pointer: fine) {
+  a:hover { text-decoration-thickness: 3px; }
+
+  .site-header nav a:hover { opacity: 0.6; }
+
+  li a:hover span:first-child {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 0.14em;
+  }
 }
 
 @media (max-width: 760px) {
