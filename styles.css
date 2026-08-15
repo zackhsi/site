@@ -8,8 +8,6 @@
 
 * { box-sizing: border-box; }
 
-html { scroll-behavior: smooth; }
-
 body {
   margin: 0;
   padding: 0 28px;
@@ -32,8 +30,7 @@ a:focus-visible {
 }
 
 .site-header,
-main,
-footer {
+main {
   width: 100%;
   max-width: 760px;
   margin-inline: auto;
@@ -48,8 +45,6 @@ footer {
   font-weight: 700;
 }
 
-.wordmark { text-decoration: none; }
-
 .site-header nav {
   display: flex;
   gap: 18px;
@@ -57,10 +52,6 @@ footer {
 }
 
 .site-header nav a {
-  text-decoration: none;
-}
-
-.site-header [aria-current="page"] {
   text-decoration: none;
 }
 
@@ -170,8 +161,4 @@ li a span:last-child {
   li a { grid-template-columns: 2rem 1fr; }
 
   li a span:last-child { grid-column: 2; }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  html { scroll-behavior: auto; }
 }

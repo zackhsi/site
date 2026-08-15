@@ -1,4 +1,1 @@
-# Local dependencies from the site's previous implementation
-/node_modules
-/.next/
 .DS_Store
